@@ -1,7 +1,7 @@
-function theBeatlesPlay(beatles, instr) {
-  var n = {};
+function theBeatlesPlay(beatles, instrument) {
+  var n = [];
   for (i = 0; i < beatles.length; i++) {
-    n = { [i]: `${beatles[i]} plays ${instr[i]}}` };
+    n.push { [i]: `${beatles[i]} plays ${instrument[i]}}` };
   }
 return n;
 }
