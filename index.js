@@ -1,5 +1,5 @@
 function theBeatlesPlay(beatles, instrument) {
-  var n = [];
+  var n = newArray();
   for (i = 0; i < beatles.length; i++) {
     n.push([i]: `${beatles[i]} plays ${instrument[i]}}`);
   }
