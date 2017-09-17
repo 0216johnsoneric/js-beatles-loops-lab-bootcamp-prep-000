@@ -32,3 +32,11 @@ function iLoveTheBeatles(number) {
       } while (number < 15);
   return newArray;
 }
+
+// function doWhileLoop(array){
+//   do {
+//     console.log(--array.length);
+//   }
+//   while (array.lenth > 0);
+//   return array
+// }
