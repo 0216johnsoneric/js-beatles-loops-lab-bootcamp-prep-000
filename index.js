@@ -14,12 +14,11 @@ var facts = [
 ];
 
 function johnLennonFacts(array) {
-  var result= []; 
-  var i = 0; 
+  var result= [];
+  var i = 0;
   while(i < array.length) {
     result.push(array[i] + '!!!')
-    i++; 
+    i++;
   }
-  return result; 
+  return result;
 }
-
